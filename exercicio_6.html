@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="loja"></div>
+    <script>
+        let loja = prompt("Digite o nome da loja");
+        let mes1 = prompt("Digite o total do mês de Janeiro");
+        let mes2 = prompt("Digite o total do mês de fevereiro");
+        let mes3 = prompt("Digite o total do mês de março");
+        let mes4 = prompt("Digite o total do mês de abril");
+        let mes5 = prompt("Digite o total do mês de maio");
+        let mes6 = prompt("Digite o total do mês de junho");
+        let mes7 = prompt("Digite o total do mês de Julho");
+        let mes8 = prompt("Digite o total do mês de agosto");
+        let mes9 = prompt("Digite o total do mês de setembro");
+        let mes10 = prompt("Digite o total do mês de outubro");
+        let mes11 = prompt("Digite o total do mês de novembro");
+        let mes12 = prompt("Digite o total do mês de dezembro"); 
+        let semestre1 = Number(mes1) + Number(mes2) + Number(mes3) + Number(mes4) + Number(mes5) + Number(mes6);
+        let semestre2 = Number(mes7) + Number(mes8) + Number(mes9) + Number(mes10) + Number(mes11) + Number(mes12);
+
+        document.getElementById("loja").innerHTML = "Loja: " + loja + "total do primeiro semestre: " + semestre1 + "total do segundo semestre: " + semestre2;
+    </script>
+</body>
+</html>
